@@ -18,6 +18,8 @@ const errorController = require('./controllers/errorController');
 
 const app = express();
 
+app.enable('trust proxy');
+
 // Tell express which view template engine to use
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
