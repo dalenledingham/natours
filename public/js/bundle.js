@@ -79,7 +79,6 @@ const $52873e4aaa37751f$export$a0973bcfe11b05c9 = async ()=>{
             }, 1500);
         }
     } catch (err) {
-        console.error(err);
         (0, $98b5a4a3c5ad9cae$export$de026b00723010c1)("error", "Error logging out");
     }
 };

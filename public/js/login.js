@@ -38,7 +38,6 @@ export const logout = async () => {
             }, 1500);
         }
     } catch (err) {
-        console.error(err);
         showAlert('error', 'Error logging out');
     }
 };
