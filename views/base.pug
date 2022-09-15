@@ -13,7 +13,7 @@ html
             script(defer src='/js/bundle.js')
             title Natours | #{title}
 
-    body
+    body(data-alert=`${alert ? alert : ''}`)
         // HEADER
         include _header
 
