@@ -167,7 +167,7 @@ if ($b17ce35f8fcc8b73$var$bookButton) $b17ce35f8fcc8b73$var$bookButton.addEventL
     (0, $2466a8251d260de7$export$8d5bdbf26681c0c2)(tourId);
 });
 const $b17ce35f8fcc8b73$var$alertMessage = document.querySelector("body").dataset.alert;
-if (alert) (0, $98b5a4a3c5ad9cae$export$de026b00723010c1)("success", $b17ce35f8fcc8b73$var$alertMessage, 20);
+if ($b17ce35f8fcc8b73$var$alertMessage) (0, $98b5a4a3c5ad9cae$export$de026b00723010c1)("success", $b17ce35f8fcc8b73$var$alertMessage, 20);
 
 
 //# sourceMappingURL=bundle.js.map
