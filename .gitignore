@@ -1,7 +1,4 @@
 .DS_Store
-.prettierrc
-.eslintrc
-.eslintignore
 .parcel-cache
 node_modules/
 *.env

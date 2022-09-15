@@ -1,0 +1,30 @@
+{
+    "extends": ["airbnb-base", "plugin:node/recommended", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "consistent-return": "off",
+        "no-unused-vars": [
+            "error",
+            { "argsIgnorePattern": "req|res|next|val" }
+        ],
+        "arrow-body-style": "off", // problematic with eslint-plugin-prettier
+        "prefer-arrow-callback": "off", // problematic with eslint-plugin-prettier
+        "no-param-reassign": "off",
+        "no-process-exit": "off",
+        "no-underscore-dangle": "off",
+        "func-names": "off",
+        "object-shorthand": "off",
+        "prefer-destructuring": ["error", { "object": true, "array": false }],
+        "class-methods-use-this": "off"
+    }
+}
